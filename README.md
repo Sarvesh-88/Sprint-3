@@ -9,7 +9,7 @@ A dynamic, live-data integration web application built for the Sprint 03 enginee
 
 ## Screenshot
 
-*(You can drag and drop your screenshot image here in GitHub)*
+*(https://github.com/Sarvesh-88/Sprint-3/blob/main/Sprint-3-img.png)*
 
 ##  Tech Stack
 
