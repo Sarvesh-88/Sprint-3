@@ -1,2 +1,28 @@
-# Sprint-3
-Prodesk IT Sprint 2: A dynamic weather forecasting web application built with Vanilla JavaScript. Uses the OpenWeatherMap API to fetch and render real-time weather data (Temperature, Condition, Humidity) using modern async/await asynchronous networking.
+#  Prodesk IT - Sprint 03: Weather-Cast
+
+A dynamic, live-data integration web application built for the Sprint 03 engineering requirements. This project demonstrates proficiency in communicating with external APIs, managing asynchronous JavaScript timing, and dynamically rendering external JSON payloads to the UI.
+
+##  Important Links
+
+* **Live Website:** [Insert your Netlify/Vercel link here]
+* **Demo Video:** [Insert your Google Drive video link here]
+
+## Screenshot
+
+*(You can drag and drop your screenshot image here in GitHub)*
+
+##  Tech Stack
+
+* **HTML5**
+* **Vanilla CSS3**
+* **Vanilla JavaScript (ES6+)**
+* **RESTful API Integration** (OpenWeatherMap)
+
+##  Features Completed (Phase 1: Base MVP)
+
+The following mandatory Phase 1 requirements have been successfully completed:
+
+* **API Integration:** Successfully integrated the OpenWeatherMap API. Utilized the native JavaScript `fetch()` API to request live weather data for the required hardcoded city ("London").
+* **Asynchronous Logic:** Managed network requests strictly using modern `async / await` syntax and `try/catch` blocks for robust error handling, completely avoiding legacy `.then()` chains.
+* **DOM Injection:** Successfully parsed the returned external JSON payload and dynamically injected specific live data points into the HTML DOM (Current Temperature, Weather Condition, and Humidity).
+* **Architecture Constraint:** Ensured optimal configuration management by passing the API Key as a designated secure variable, rather than hardcoding it directly into the fetch URL string.
